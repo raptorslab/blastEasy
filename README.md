@@ -27,6 +27,6 @@ Instructions to Instructor:
 
 **NOTE: The PORT for connecting work_queue_factory above would be the (Sequence_Server_PORT NUM + 1)** 
 
-**Note:** One can connect as many `Work_Queue_Factory's` as needed as above.
+**Note:** One can connect as many `Work_Queue_Factory's` as needed as above but, make sure to have the blast databases in the same path as Master and other workers in `/Data`.
 
 6. Once worker factory is connected, blast queries can be submitted and results can be accessed using front end while the time to blast query is printed on the Master VM backend terminal for benchmarking. 
