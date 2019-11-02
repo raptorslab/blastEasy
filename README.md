@@ -27,7 +27,7 @@ Instructions to Instructor:
 5. Connect Work_Queue_Factory to Master VM before submitting blast jobs by
 `work_queue_factory IP PORT -T local -w Min_NUM_OF_Workers`
 
-**NOTE: The PORT for connecting work_queue_factory above would be the (Sequence_Server_PORT NUM + 1)** 
+**NOTE: The PORT for connecting work_queue_factory above would be the (Sequence_Server_PORT_NUM + 1)** 
 
 **Note:** One can connect as many `Work_Queue_Factory's` as needed as above but, make sure to have the blast databases in the same path as Master and other workers in `/Data`.
 
