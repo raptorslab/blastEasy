@@ -20,7 +20,9 @@ Instructions to Instructor:
 3. On the Master VM, launch sequenceServer as follows:
 `sequenceserver -d /Data`
 
-4. Now anyone can open a web-browser and go to `IP_ADDRESS_of_Master_VM:PORT` to access sequence server front-end. 
+**Note:** Take a note of the Master VM's IP_ADDRESS and the port on which sequenceServer is listening for the next steps.
+
+4. Now you or your students can open a web-browser and go to `IP_ADDRESS_of_Master_VM:PORT` to access sequence server front-end. 
 
 5. Connect Work_Queue_Factory to Master VM before submitting blast jobs by
 `work_queue_factory IP PORT -T local -w Min_NUM_OF_Workers`
