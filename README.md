@@ -29,11 +29,11 @@ Instructions to Instructor:
   C- /iplant/home/shared/iplantcollaborative/example_data/blast_dbs/refseqgene
   ```
   
-  - Download a database from CyVerse data commons to the `/scratch` folder on your VM as follows:
+  - Download the following database from CyVerse data commons to the `/scratch` folder on your VM as follows:
+    
+    + `irsync -r i:/iplant/home/shared/iplantcollaborative/example_data/blast_dbs/human_genomic /scratch/`
     
     + `irsync -r i:/iplant/home/shared/iplantcollaborative/example_data/blast_dbs/pdbaa /scratch/`
-    
-    + `irsync -r i:/iplant/home/shared/iplantcollaborative/example_data/blast_dbs/pdbnt /scratch/`
 
   - To use CUSTOM databases, we recommend uploading the sequences to CyVerse data store and use DE apps to make blast databases that can be downloaded to Master and Worker VMs using iRODS. Read more [here] for more detailed instructions
 
