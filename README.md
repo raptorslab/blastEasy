@@ -14,6 +14,20 @@ Instructions to Instructor:
 
 + This sequenceServer image has three test protein databases (mouse.1, mouse.2, zebrafish.1) in `/Data` that can be used for testing. 
 
+## Accessing CyVerse data store using `irods`
+
+  + once logged in to your VM, type `iinit`
+```  
+    + Enter the host name (DNS) of the server to connect to: data.cyverse.org
+    + Enter the port number: 1247
+    + Enter your irods user name: 
+    + Enter your irods zone: iplant
+    Those values will be added to your environment file (for use by
+    other iCommands) if the login succeeds.
+
+    + Enter your current iRODS password:
+```
+
 + Several NCBI public databases are also hosted in CyVerse Data Commons. Access them using icommands as follows:
   - List available databases
     + `ils /iplant/home/shared/iplantcollaborative/example_data/blast_dbs`
