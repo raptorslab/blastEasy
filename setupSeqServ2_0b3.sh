@@ -36,7 +36,7 @@ cd BLASTEasy
 git init
 git remote add origin -f https://github.com/raptorslab/blastEasy.git
 git config core.sparseCheckout true
-echo Sequenceserver_2_0_b3 > .git/info/sparse-checkout
+echo Sequenceserver_2_0b3 > .git/info/sparse-checkout
 git pull origin master
 rsync -hapvP Sequenceserver_2_0_b3/ $seqpth/gems/sequenceserver*/
 
